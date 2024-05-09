@@ -117,9 +117,36 @@ nav li:first-child{
    }
 
    .Solo p{
-    margin-bottom: auto;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    color: #fff;
+
    }
 
+
+   .Sform{
+    width: 100%;
+    max-width: 350px;
+   }
+
+   .Sform form{
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+   }
+
+   .Sform input{
+   padding: 1rem;
+   outline: none;
+   border: none;
+   font-size: 1rem;
+   color: #fff; 
+   background-color:  rgb(72, 14, 230); 
+   border-radius: 5px;  
+   }
 
 
 
